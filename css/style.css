@@ -1,0 +1,241 @@
+body {
+    margin: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 25px;
+    color: #3f609e;
+}
+
+nav { 
+    font-size: 15px;
+    padding: 25px;
+    background-color: #D6EBFF;
+    border-style: double;
+    border-radius: 50px;
+    border-color: white;
+    color: #3f609e;
+    border-width: 10px;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#contactPage:link, #contactPage:visited, #about:link, #about:visited {
+    text-decoration: none;
+    background-color: white;
+    color: #3f609e;
+    border: 2px solid white;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+#contactPage:hover, #about:hover {
+    text-decoration: none;
+    background-color: #3f609e;
+    color: white;
+    border: 2px solid white;
+    transition: 0.2s;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #D6EBFF;
+    border-style: double;
+    border-radius: 50px;
+    border-color: white;
+    color: #3f609e;
+    border-width: 10px;
+    gap: 5px;
+    font-size: 15px;
+}
+
+#links > a:link, a:visited {
+    text-decoration: none;
+    color: #3f609e;
+}
+
+#links > a:hover {
+    text-decoration: none;
+    color: #799bd9;
+}
+
+.splash {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #3f609e;
+}
+
+.splash h1 {
+    font-size: 25px;
+}
+
+.splash img {
+    border-radius: 50%;
+    border: solid 2px #3f609e;
+}
+
+.splash p {
+    text-align: center;
+}
+
+#info {
+    padding: 10px 15px;
+    border-radius: 25px;
+    border: 2px #3f609e solid;
+    background-color: #D6EBFF;
+}
+
+hr {
+    border: solid #3f609e;
+    margin: 25px;
+}
+
+h2 {
+    padding: 10px 25px;
+    margin-bottom: 10px;
+    border: 2px #3f609e solid;
+    background-color: #D6EBFF;
+    border-radius: 25px;
+    color: #3f609e;
+    display: inline-block;
+    font-size: x-large;
+}
+
+#education > p {
+    margin-left: 20px;
+}
+
+h3 {
+    font-size: large;
+}
+
+.space-mono-regular {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.space-mono-bold {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+}
+  
+.space-mono-regular-italic {
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: italic;
+}
+
+ul {
+    list-style-image: url('../images/heart.png');
+}
+
+dl {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin-left: 20px;
+}
+
+dt {
+    text-align: left;
+    margin-right: 10px;
+}
+
+dd {
+    font-style: italic;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.one-col {
+    display: grid;
+    justify-content: center;
+    padding: 10px;
+    background-color: #D6EBFF;
+    border-radius: 25px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.one-col > label {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#submit {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 20px;
+    width: 100px;
+    background-color: white;
+    border-radius: 5px;
+    border-color:#3f609e;
+    color:#3f609e;
+}
+
+#submit:active {
+    background-color: #3f609e;
+    color: white;
+    border-color: white;
+}
+
+.one-col > textarea {
+    height: 300;
+    width: 150;
+    max-width: 600px;
+    max-height: 300px;
+}
+
+.three-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 10px;
+}
+
+.card {
+    border: 5px solid #3f609e;
+    padding: 20px;
+    transition: 0.1s;
+    border-radius: 50px;
+}
+
+.card > h3 {
+    text-align: center;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card > ul li {
+    padding: 3px;
+}
+
+.card > img {
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 50px;
+}
+
+#website:link, #website:visited {
+    color: #3f609e;
+    text-decoration: none;
+    font-style: bold;
+}
+
+#website:hover {
+    color: #799bd9;
+}
+
+
+
